@@ -1,0 +1,39 @@
+{
+    "short_name": "Giphy App",
+    "name": "Giphy App: Trending, Search and Save",
+    "description": "App for discovering gifs ",
+    "icons": [
+        {
+            "src": "assets/images/icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "assets/images/icon-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "orientation":"portrait",
+    "start_url": "/?source=pwa",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#008026",
+    "shortcuts": [
+        {
+            "name": "Search Gifs",
+            "short_name": "Search",
+            "description": "A shortcut for the Search Gifs page",
+            "url": "/today?source=pwa/search.html",
+            "icons": [{ "src": "assets/images/icon-192x192.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "Saved Gifs",
+            "short_name": "Saved",
+            "description": "A shortcut for the Saved Gifs page",
+            "url": "/today?source=pwa/saved.html",
+            "icons": [{ "src": "assets/images/icon-512x512.png", "sizes": "512x512" }]
+        }
+    ]
+}
